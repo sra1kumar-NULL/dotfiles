@@ -1,0 +1,47 @@
+# Rosé Pine -- the ONE canonical colour file for this theme.
+# Palette source: canonical Rosé Pine (main) palette, rosepinetheme.com.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh rose-pine`.
+NAME='Rosé Pine'
+MODE='dark'
+OPPOSITE='rose-pine-dawn'
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#ebbcba'
+ON_PRIMARY='#191724'
+PRIMARY_CONTAINER='#776168'
+SECONDARY='#9ccfd8'
+SECONDARY_CONTAINER='#403d52'
+TERTIARY='#ebbcba'
+SURFACE='#13111e'
+ON_SURFACE='#e0def4'
+SURFACE_CONTAINER='#1f1d2e'
+SURFACE_CONTAINER_HIGH='#403d52'
+ON_SURFACE_VARIANT='#908caa'
+OUTLINE='#6e6a86'
+OUTLINE_VARIANT='#191724'
+ERROR='#eb6f92'
+ON_ERROR='#191724'
+
+# Terminal
+TERM_BG='#191724'
+TERM_FG='#e0def4'
+SELECTION_BG='#403d52'
+SELECTION_FG='#e0def4'
+CURSOR='#ebbcba'
+COLOR0='#403d52'
+COLOR1='#eb6f92'
+COLOR2='#31748f'
+COLOR3='#f6c177'
+COLOR4='#9ccfd8'
+COLOR5='#c4a7e7'
+COLOR6='#ebbcba'
+COLOR7='#908caa'
+COLOR8='#6e6a86'
+COLOR9='#eb6f92'
+COLOR10='#31748f'
+COLOR11='#f6c177'
+COLOR12='#9ccfd8'
+COLOR13='#c4a7e7'
+COLOR14='#ebbcba'
+COLOR15='#e0def4'

@@ -1,0 +1,47 @@
+# Nord -- the ONE canonical colour file for this theme.
+# Palette source: omarchy themes/nord/colors.toml.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh nord`.
+NAME='Nord'
+MODE='dark'
+OPPOSITE=''
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#81a1c1'
+ON_PRIMARY='#2e3440'
+PRIMARY_CONTAINER='#53657a'
+SECONDARY='#81a1c1'
+SECONDARY_CONTAINER='#434c5e'
+TERTIARY='#88c0d0'
+SURFACE='#222730'
+ON_SURFACE='#d8dee9'
+SURFACE_CONTAINER='#3b4252'
+SURFACE_CONTAINER_HIGH='#434c5e'
+ON_SURFACE_VARIANT='#adb5c4'
+OUTLINE='#4c566a'
+OUTLINE_VARIANT='#2e3440'
+ERROR='#bf616a'
+ON_ERROR='#2e3440'
+
+# Terminal
+TERM_BG='#2e3440'
+TERM_FG='#d8dee9'
+SELECTION_BG='#434c5e'
+SELECTION_FG='#d8dee9'
+CURSOR='#81a1c1'
+COLOR0='#434c5e'
+COLOR1='#bf616a'
+COLOR2='#a3be8c'
+COLOR3='#ebcb8b'
+COLOR4='#81a1c1'
+COLOR5='#b48ead'
+COLOR6='#88c0d0'
+COLOR7='#adb5c4'
+COLOR8='#4c566a'
+COLOR9='#bf616a'
+COLOR10='#a3be8c'
+COLOR11='#ebcb8b'
+COLOR12='#81a1c1'
+COLOR13='#b48ead'
+COLOR14='#8fbcbb'
+COLOR15='#d8dee9'

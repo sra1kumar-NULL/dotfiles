@@ -1,0 +1,22 @@
+[package]
+name = "mangobar"
+version = "0.1.2"
+edition = "2024"
+license = "GPL-3.0"
+repository = "https://github.com/Gur0v/mangobar"
+description = "A tiny mangowc bar with swaybar energy"
+
+[dependencies]
+gtk = { package = "gtk4", version = "0.11" }
+gtk4-layer-shell = "0.8"
+libc = "0.2"
+tokio = { version = "1", features = ["macros", "process", "rt", "sync", "time"] }
+zbus = { version = "5", default-features = false, features = ["tokio"] }
+futures-util = { version = "0.3", default-features = false }
+
+[profile.release]
+codegen-units = 1
+lto = "fat"
+opt-level = 3
+panic = "abort"
+strip = true

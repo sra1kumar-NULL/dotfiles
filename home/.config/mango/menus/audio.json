@@ -1,0 +1,32 @@
+{
+  "title": "audio",
+  "parent": "hardware",
+  "items": [
+    {
+      "icon": "󰕾",
+      "label": "Output device",
+      "run": "audio.sh sink"
+    },
+    {
+      "icon": "󰍬",
+      "label": "Input device",
+      "run": "audio.sh source"
+    },
+    {
+      "icon": "󰖁",
+      "label": "Mute output",
+      "run": "audio.sh mute",
+      "keep": true
+    },
+    {
+      "icon": "󰕾",
+      "label": "Mixer (TUI)",
+      "run": "tui.sh wiremix"
+    },
+    {
+      "icon": "󰕾",
+      "label": "Mixer",
+      "exec": "pavucontrol"
+    }
+  ]
+}

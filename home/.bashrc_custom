@@ -1,0 +1,74 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Custom shell config. ML4W sources this LAST (see ~/.bashrc), so anything here
+# wins over ~/.config/bashrc/* without touching the ml4w dotfiles symlinks.
+# To revert the prompt to ml4w's plain PS1: comment out the starship block.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Prompt ───────────────────────────────────────────────────────────────────
+# Uses the existing ~/.config/starship.toml (two-line, Nerd Font glyphs).
+# Needs a Nerd Font in the terminal — kitty is set to JetBrainsMono Nerd Font.
+if command -v starship >/dev/null 2>&1; then
+    eval "$(starship init bash)"
+fi
+
+# ── History ──────────────────────────────────────────────────────────────────
+HISTSIZE=50000
+HISTFILESIZE=100000
+HISTCONTROL=ignoreboth:erasedups
+HISTIGNORE='ls:ll:la:cd:pwd:exit:clear:history'
+HISTTIMEFORMAT='%F %T  '
+shopt -s histappend cmdhist
+shopt -s checkwinsize autocd cdspell dirspell globstar nocaseglob
+
+# ── Modern replacements (all already installed) ──────────────────────────────
+if command -v eza >/dev/null 2>&1; then
+    alias ls='eza --group-directories-first --icons=auto'
+    alias ll='eza -l --group-directories-first --icons=auto --git --time-style=relative'
+    alias la='eza -la --group-directories-first --icons=auto --git --time-style=relative'
+    alias lt='eza --tree --level=2 --icons=auto'
+    alias tree='eza --tree --icons=auto'
+fi
+if command -v bat >/dev/null 2>&1; then
+    alias cat='bat --style=plain --paging=never'
+    alias less='bat --paging=always'
+    export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+    export BAT_THEME='base16'
+fi
+command -v fastfetch >/dev/null 2>&1 && alias neofetch='fastfetch'   # neofetch is EOL / not in F44
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias mkdir='mkdir -pv'
+alias df='df -h'
+alias du='du -h'
+alias free='free -h'
+alias ip='ip -color=auto'
+alias grep='grep --color=auto'
+alias gs='git status -sb'
+alias gl='git log --oneline --graph --decorate -20'
+alias gd='git diff'
+
+# Mango rice helpers
+alias mango-reload='mmsg dispatch reload_config'
+alias mango-check='mango -c ~/.config/mango/config.conf -p'
+alias wallpaper='~/.config/mango/scripts/wallpaper.sh'
+
+# ── fzf ──────────────────────────────────────────────────────────────────────
+if command -v fzf >/dev/null 2>&1; then
+    eval "$(fzf --bash)" 2>/dev/null || true
+    export FZF_DEFAULT_OPTS='--height 45% --layout=reverse --border=sharp --info=inline'
+fi
+
+# ── Greeting: fastfetch once per terminal, interactive shells only ──────────
+# Guarded so it does not fire in subshells, scripts, scp or editor shells.
+# Opt out for a session with:  export MANGO_NO_FETCH=1
+if [[ $- == *i* ]] && [[ -z ${MANGO_NO_FETCH:-} ]] && [[ -z ${FASTFETCH_SHOWN:-} ]] \
+   && command -v fastfetch >/dev/null 2>&1; then
+    export FASTFETCH_SHOWN=1
+    fastfetch
+fi
+
+# ── zoxide (smarter cd: `z <partial>`, `zi` to pick) ────────────────────────
+if command -v zoxide >/dev/null 2>&1; then
+    eval "$(zoxide init bash)"
+fi

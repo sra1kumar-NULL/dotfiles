@@ -1,0 +1,43 @@
+{
+  "title": "style",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰏘",
+      "label": "Theme",
+      "state": "cat ~/.config/mango/current-theme",
+      "run": "theme-pick.sh"
+    },
+    {
+      "icon": "󰸉",
+      "label": "Theme from wallpaper",
+      "run": "theme-set.sh wallpaper"
+    },
+    {
+      "icon": "󰋊",
+      "label": "Next wallpaper",
+      "run": "wallpaper.sh next",
+      "keep": true
+    },
+    {
+      "icon": "󰈐",
+      "label": "Pick wallpaper",
+      "run": "wallpaper-pick.sh"
+    },
+    {
+      "icon": "󰖔",
+      "label": "Light / dark",
+      "run": "theme.sh"
+    },
+    {
+      "icon": "󰑐",
+      "label": "Rebuild bar",
+      "run": "rebuild-mangobar.sh"
+    },
+    {
+      "icon": "󰑐",
+      "label": "Restart bar",
+      "run": "bar.sh restart"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+com.rafaelmardojai.Blanket
+org.fedoraproject.MediaWriter
+org.localsend.localsend_app
+org.telegram.desktop

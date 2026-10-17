@@ -1,0 +1,47 @@
+# Kanagawa -- the ONE canonical colour file for this theme.
+# Palette source: omarchy themes/kanagawa/colors.toml.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh kanagawa`.
+NAME='Kanagawa'
+MODE='dark'
+OPPOSITE=''
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#dcd7ba'
+ON_PRIMARY='#1f1f28'
+PRIMARY_CONTAINER='#74726a'
+SECONDARY='#7e9cd8'
+SECONDARY_CONTAINER='#363646'
+TERTIARY='#6a9589'
+SURFACE='#17171e'
+ON_SURFACE='#dcd7ba'
+SURFACE_CONTAINER='#223249'
+SURFACE_CONTAINER_HIGH='#363646'
+ON_SURFACE_VARIANT='#c8c093'
+OUTLINE='#54546d'
+OUTLINE_VARIANT='#1f1f28'
+ERROR='#c34043'
+ON_ERROR='#1f1f28'
+
+# Terminal
+TERM_BG='#1f1f28'
+TERM_FG='#dcd7ba'
+SELECTION_BG='#363646'
+SELECTION_FG='#dcd7ba'
+CURSOR='#dcd7ba'
+COLOR0='#363646'
+COLOR1='#c34043'
+COLOR2='#76946a'
+COLOR3='#c0a36e'
+COLOR4='#7e9cd8'
+COLOR5='#957fb8'
+COLOR6='#6a9589'
+COLOR7='#c8c093'
+COLOR8='#54546d'
+COLOR9='#e82424'
+COLOR10='#98bb6c'
+COLOR11='#e6c384'
+COLOR12='#7fb4ca'
+COLOR13='#938aa9'
+COLOR14='#7aa89f'
+COLOR15='#dcd7ba'

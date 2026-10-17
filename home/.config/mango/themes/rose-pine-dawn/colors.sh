@@ -1,0 +1,47 @@
+# Rosé Pine Dawn -- the ONE canonical colour file for this theme.
+# Palette source: omarchy themes/rose-pine/colors.toml.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh rose-pine-dawn`.
+NAME='Rosé Pine Dawn'
+MODE='light'
+OPPOSITE='rose-pine'
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#56949f'
+ON_PRIMARY='#faf4ed'
+PRIMARY_CONTAINER='#b0c9ca'
+SECONDARY='#56949f'
+SECONDARY_CONTAINER='#dfdad9'
+TERTIARY='#d7827e'
+SURFACE='#ede7e1'
+ON_SURFACE='#575279'
+SURFACE_CONTAINER='#f2e9e1'
+SURFACE_CONTAINER_HIGH='#dfdad9'
+ON_SURFACE_VARIANT='#6e6a86'
+OUTLINE='#cecacd'
+OUTLINE_VARIANT='#faf4ed'
+ERROR='#b4637a'
+ON_ERROR='#faf4ed'
+
+# Terminal
+TERM_BG='#faf4ed'
+TERM_FG='#575279'
+SELECTION_BG='#dfdad9'
+SELECTION_FG='#575279'
+CURSOR='#56949f'
+COLOR0='#9893a5'
+COLOR1='#b4637a'
+COLOR2='#286983'
+COLOR3='#ea9d34'
+COLOR4='#56949f'
+COLOR5='#907aa9'
+COLOR6='#d7827e'
+COLOR7='#575279'
+COLOR8='#9893a5'
+COLOR9='#b4637a'
+COLOR10='#286983'
+COLOR11='#ea9d34'
+COLOR12='#56949f'
+COLOR13='#907aa9'
+COLOR14='#d7827e'
+COLOR15='#575279'

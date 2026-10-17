@@ -1,0 +1,7 @@
+fourlinecode.flc-nord-dark-pro
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-python-envs
+ollama.ollama
+sst-dev.opencode
+vaibhavrathod.ollama-vscode-chat

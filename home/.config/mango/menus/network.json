@@ -1,0 +1,42 @@
+{
+  "title": "network",
+  "parent": "hardware",
+  "items": [
+    {
+      "icon": "󰖩",
+      "label": "Connect",
+      "run": "network.sh"
+    },
+    {
+      "icon": "󰋽",
+      "label": "Status",
+      "run": "network-status.sh",
+      "keep": true
+    },
+    {
+      "icon": "󰌆",
+      "label": "Show password",
+      "run": "network-password.sh"
+    },
+    {
+      "icon": "󰐲",
+      "label": "Share QR",
+      "run": "network-qr.sh"
+    },
+    {
+      "icon": "󰓅",
+      "label": "Speed test",
+      "run": "network-speedtest.sh"
+    },
+    {
+      "icon": "󰑐",
+      "label": "Restart Wi-Fi",
+      "run": "network-restart.sh"
+    },
+    {
+      "icon": "󰒓",
+      "label": "Advanced",
+      "exec": "nm-connection-editor"
+    }
+  ]
+}

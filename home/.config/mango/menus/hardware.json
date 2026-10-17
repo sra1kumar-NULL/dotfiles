@@ -1,0 +1,24 @@
+{
+  "title": "hardware",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰖩",
+      "label": "Wi-Fi",
+      "state": "./network-state.sh",
+      "menu": "network"
+    },
+    {
+      "icon": "󰂯",
+      "label": "Bluetooth",
+      "state": "./bluetooth-state.sh",
+      "menu": "bluetooth"
+    },
+    {
+      "icon": "󰕾",
+      "label": "Audio",
+      "state": "./audio-state.sh",
+      "menu": "audio"
+    }
+  ]
+}

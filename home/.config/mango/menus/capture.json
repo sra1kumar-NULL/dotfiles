@@ -1,0 +1,38 @@
+{
+  "title": "capture",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰒈",
+      "label": "Region",
+      "run": "screenshot.sh region"
+    },
+    {
+      "icon": "󰖰",
+      "label": "Window",
+      "run": "screenshot.sh window"
+    },
+    {
+      "icon": "󰍹",
+      "label": "Full screen",
+      "run": "screenshot.sh output"
+    },
+    {
+      "icon": "󰑊",
+      "label": "Record region",
+      "state": "./record.sh status && echo recording",
+      "run": "record.sh region"
+    },
+    {
+      "icon": "󰑊",
+      "label": "Record screen",
+      "state": "./record.sh status && echo recording",
+      "run": "record.sh output"
+    },
+    {
+      "icon": "󰝥",
+      "label": "Colour picker",
+      "run": "colorpick.sh"
+    }
+  ]
+}

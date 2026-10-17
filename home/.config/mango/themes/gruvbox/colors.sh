@@ -1,0 +1,47 @@
+# Gruvbox -- the ONE canonical colour file for this theme.
+# Palette source: omarchy themes/gruvbox/colors.toml.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh gruvbox`.
+NAME='Gruvbox'
+MODE='dark'
+OPPOSITE=''
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#7daea3'
+ON_PRIMARY='#282828'
+PRIMARY_CONTAINER='#4e645f'
+SECONDARY='#7daea3'
+SECONDARY_CONTAINER='#504945'
+TERTIARY='#89b482'
+SURFACE='#1e1e1e'
+ON_SURFACE='#d4be98'
+SURFACE_CONTAINER='#3c3836'
+SURFACE_CONTAINER_HIGH='#504945'
+ON_SURFACE_VARIANT='#bdae93'
+OUTLINE='#665c54'
+OUTLINE_VARIANT='#282828'
+ERROR='#ea6962'
+ON_ERROR='#282828'
+
+# Terminal
+TERM_BG='#282828'
+TERM_FG='#d4be98'
+SELECTION_BG='#504945'
+SELECTION_FG='#d4be98'
+CURSOR='#7daea3'
+COLOR0='#504945'
+COLOR1='#ea6962'
+COLOR2='#a9b665'
+COLOR3='#d8a657'
+COLOR4='#7daea3'
+COLOR5='#d3869b'
+COLOR6='#89b482'
+COLOR7='#bdae93'
+COLOR8='#665c54'
+COLOR9='#ea6962'
+COLOR10='#a9b665'
+COLOR11='#d8a657'
+COLOR12='#7daea3'
+COLOR13='#d3869b'
+COLOR14='#89b482'
+COLOR15='#d4be98'

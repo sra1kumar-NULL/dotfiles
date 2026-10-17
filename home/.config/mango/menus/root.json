@@ -1,0 +1,30 @@
+{
+  "title": ">",
+  "items": [
+    {
+      "icon": "󰋁",
+      "label": "Hardware",
+      "menu": "hardware"
+    },
+    {
+      "icon": "󰏘",
+      "label": "Style",
+      "menu": "style"
+    },
+    {
+      "icon": "󰈐",
+      "label": "Capture",
+      "menu": "capture"
+    },
+    {
+      "icon": "󰆒",
+      "label": "Clipboard",
+      "run": "clipboard.sh"
+    },
+    {
+      "icon": "󰐥",
+      "label": "System",
+      "menu": "system"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+# Catppuccin Latte -- the ONE canonical colour file for this theme.
+# Palette source: omarchy themes/catppuccin-latte/colors.toml.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh catppuccin-latte`.
+NAME='Catppuccin Latte'
+MODE='light'
+OPPOSITE='catppuccin'
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#1e66f5'
+ON_PRIMARY='#eff1f5'
+PRIMARY_CONTAINER='#91b2f5'
+SECONDARY='#1e66f5'
+SECONDARY_CONTAINER='#ccd0da'
+TERTIARY='#179299'
+SURFACE='#e3e4e8'
+ON_SURFACE='#4c4f69'
+SURFACE_CONTAINER='#dce0e8'
+SURFACE_CONTAINER_HIGH='#ccd0da'
+ON_SURFACE_VARIANT='#5c5f77'
+OUTLINE='#acb0be'
+OUTLINE_VARIANT='#eff1f5'
+ERROR='#d20f39'
+ON_ERROR='#eff1f5'
+
+# Terminal
+TERM_BG='#eff1f5'
+TERM_FG='#4c4f69'
+SELECTION_BG='#ccd0da'
+SELECTION_FG='#4c4f69'
+CURSOR='#1e66f5'
+COLOR0='#9ca0b0'
+COLOR1='#d20f39'
+COLOR2='#40a02b'
+COLOR3='#df8e1d'
+COLOR4='#1e66f5'
+COLOR5='#ea76cb'
+COLOR6='#179299'
+COLOR7='#4c4f69'
+COLOR8='#9ca0b0'
+COLOR9='#d20f39'
+COLOR10='#40a02b'
+COLOR11='#df8e1d'
+COLOR12='#1e66f5'
+COLOR13='#ea76cb'
+COLOR14='#179299'
+COLOR15='#4c4f69'

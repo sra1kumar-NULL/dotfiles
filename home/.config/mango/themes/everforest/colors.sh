@@ -1,0 +1,47 @@
+# Everforest -- the ONE canonical colour file for this theme.
+# Palette source: omarchy themes/everforest/colors.toml.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh everforest`.
+NAME='Everforest'
+MODE='dark'
+OPPOSITE=''
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#a7c080'
+ON_PRIMARY='#232a2e'
+PRIMARY_CONTAINER='#6c8446'
+SECONDARY='#7fbbb3'
+SECONDARY_CONTAINER='#3d484d'
+TERTIARY='#7fbbb3'
+SURFACE='#232a2e'
+ON_SURFACE='#d3c6aa'
+SURFACE_CONTAINER='#343f44'
+SURFACE_CONTAINER_HIGH='#3d484d'
+ON_SURFACE_VARIANT='#d3c6aa'
+OUTLINE='#56635f'
+OUTLINE_VARIANT='#2d353b'
+ERROR='#e57e80'
+ON_ERROR='#601410'
+
+# Terminal
+TERM_BG='#2d353b'
+TERM_FG='#d3c6aa'
+SELECTION_BG='#7fbbb3'
+SELECTION_FG='#232a2e'
+CURSOR='#a7c080'
+COLOR0='#3d484d'
+COLOR1='#e67e80'
+COLOR2='#a7c080'
+COLOR3='#dbbc7f'
+COLOR4='#7fbbb3'
+COLOR5='#d699b6'
+COLOR6='#83c092'
+COLOR7='#9da9a0'
+COLOR8='#475258'
+COLOR9='#e67e80'
+COLOR10='#a7c080'
+COLOR11='#dbbc7f'
+COLOR12='#7fbbb3'
+COLOR13='#d699b6'
+COLOR14='#83c092'
+COLOR15='#d3c6aa'

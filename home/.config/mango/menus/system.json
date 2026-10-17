@@ -1,0 +1,36 @@
+{
+  "title": "system",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰌾",
+      "label": "Lock",
+      "run": "lock.sh"
+    },
+    {
+      "icon": "󰤄",
+      "label": "Suspend",
+      "exec": "systemctl suspend"
+    },
+    {
+      "icon": "󰑐",
+      "label": "Reload mango",
+      "exec": "mmsg dispatch reload_config"
+    },
+    {
+      "icon": "󰍃",
+      "label": "Log out",
+      "exec": "mmsg dispatch quit"
+    },
+    {
+      "icon": "󰜉",
+      "label": "Reboot",
+      "exec": "systemctl reboot"
+    },
+    {
+      "icon": "󰐥",
+      "label": "Shut down",
+      "exec": "systemctl poweroff"
+    }
+  ]
+}

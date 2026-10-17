@@ -1,0 +1,20 @@
+# -----------------------------------------------------
+# CUSTOMIZATION
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Prompt (plain bash, no oh-my-posh / prompt frameworks)
+#   user@host:cwd (git-branch) $
+# -----------------------------------------------------
+__ml4w_git_branch() {
+    command git rev-parse --is-inside-work-tree >/dev/null 2>&1 || return 0
+    local branch
+    branch=$(command git symbolic-ref --quiet --short HEAD 2>/dev/null) \
+        || branch=$(command git rev-parse --short HEAD 2>/dev/null) \
+        || return 0
+    printf ' (%s)' "$branch"
+}
+
+if [ -n "$PS1" ]; then
+    PS1='\[\e[1;36m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\[\e[33m\]$(__ml4w_git_branch)\[\e[0m\]\[\e[1;32m\]\$ \[\e[0m\]'
+fi

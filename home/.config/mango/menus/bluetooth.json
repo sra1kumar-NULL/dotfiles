@@ -1,0 +1,33 @@
+{
+  "title": "bluetooth",
+  "parent": "hardware",
+  "items": [
+    {
+      "icon": "󰂰",
+      "label": "Devices",
+      "run": "bluetooth.sh"
+    },
+    {
+      "icon": "󰂯",
+      "label": "Devices (TUI)",
+      "run": "tui.sh bluetui"
+    },
+    {
+      "icon": "󰐥",
+      "label": "Power",
+      "state": "./bluetooth-state.sh",
+      "run": "bluetooth-power.sh toggle",
+      "keep": true
+    },
+    {
+      "icon": "󰑐",
+      "label": "Restart",
+      "run": "bluetooth-restart.sh"
+    },
+    {
+      "icon": "󰒓",
+      "label": "Manager",
+      "exec": "blueman-manager"
+    }
+  ]
+}

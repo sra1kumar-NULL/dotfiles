@@ -1,0 +1,40 @@
+{
+  "title": "toggle",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰖔",
+      "label": "Night light",
+      "state": "./night-state.sh",
+      "run": "night.sh",
+      "keep": true
+    },
+    {
+      "icon": "󰌾",
+      "label": "Idle lock",
+      "state": "./inhibit-state.sh",
+      "run": "inhibit.sh",
+      "keep": true
+    },
+    {
+      "icon": "󰂛",
+      "label": "Do not disturb",
+      "exec": "makoctl mode -t do-not-disturb",
+      "keep": true
+    },
+    {
+      "icon": "󰖩",
+      "label": "Wi-Fi",
+      "state": "./network-state.sh",
+      "exec": "nmcli radio wifi $(nmcli -t radio wifi | grep -q enabled && echo off || echo on)",
+      "keep": true
+    },
+    {
+      "icon": "󰂯",
+      "label": "Bluetooth",
+      "state": "./bluetooth-state.sh",
+      "run": "bluetooth-power.sh toggle",
+      "keep": true
+    }
+  ]
+}

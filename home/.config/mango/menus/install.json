@@ -1,0 +1,16 @@
+{
+  "title": "install",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰏗",
+      "label": "Package",
+      "run": "pkg.sh install"
+    },
+    {
+      "icon": "󰖟",
+      "label": "Web app",
+      "run": "webapp-menu.sh"
+    }
+  ]
+}

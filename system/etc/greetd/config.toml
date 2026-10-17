@@ -1,0 +1,10 @@
+# Written by ~/mango-migration/04-greeter.sh on 2026-10-14. mango is the only session.
+[terminal]
+vt = 1
+
+[default_session]
+# --remember          prefill the last user
+# --remember-session  remember the last session chosen in the F3 menu
+# --cmd              default session = Exec of /usr/share/wayland-sessions/mango.desktop
+command = "tuigreet --time --remember --remember-session --asterisks --cmd mango"
+user = "greetd"

@@ -1,0 +1,31 @@
+{
+  "title": "learn",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰌌",
+      "label": "Keybindings",
+      "run": "cheatsheet.sh"
+    },
+    {
+      "icon": "󰈙",
+      "label": "Mango wiki",
+      "exec": "xdg-open https://github.com/mangowm/mango/wiki"
+    },
+    {
+      "icon": "󰈙",
+      "label": "Mango docs",
+      "exec": "xdg-open https://github.com/mangowm/mango/tree/main/docs"
+    },
+    {
+      "icon": "",
+      "label": "Omarchy manual",
+      "exec": "xdg-open https://learn.omacom.io/2/the-omarchy-manual"
+    },
+    {
+      "icon": "󰊢",
+      "label": "Lazygit keys",
+      "exec": "xdg-open https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md"
+    }
+  ]
+}

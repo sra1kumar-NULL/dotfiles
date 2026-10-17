@@ -1,0 +1,47 @@
+# Tokyo Night -- the ONE canonical colour file for this theme.
+# Palette source: omarchy themes/tokyo-night/colors.toml.
+# Rendered into every consumer by ~/.config/mango/scripts/theme-set.sh;
+# edit here, then re-run `theme-set.sh tokyo-night`.
+NAME='Tokyo Night'
+MODE='dark'
+OPPOSITE=''
+
+# UI roles (same names as ~/.config/mango/palette.sh)
+PRIMARY='#7aa2f7'
+ON_PRIMARY='#1a1b26'
+PRIMARY_CONTAINER='#455884'
+SECONDARY='#7aa2f7'
+SECONDARY_CONTAINER='#292e42'
+TERTIARY='#449dab'
+SURFACE='#13141c'
+ON_SURFACE='#a9b1d6'
+SURFACE_CONTAINER='#24283b'
+SURFACE_CONTAINER_HIGH='#292e42'
+ON_SURFACE_VARIANT='#b4bee6'
+OUTLINE='#414868'
+OUTLINE_VARIANT='#1a1b26'
+ERROR='#f7768e'
+ON_ERROR='#1a1b26'
+
+# Terminal
+TERM_BG='#1a1b26'
+TERM_FG='#a9b1d6'
+SELECTION_BG='#292e42'
+SELECTION_FG='#c0caf5'
+CURSOR='#7aa2f7'
+COLOR0='#292e42'
+COLOR1='#f7768e'
+COLOR2='#9ece6a'
+COLOR3='#e0af68'
+COLOR4='#7aa2f7'
+COLOR5='#ad8ee6'
+COLOR6='#449dab'
+COLOR7='#b4bee6'
+COLOR8='#414868'
+COLOR9='#ff7a93'
+COLOR10='#b9f27c'
+COLOR11='#ff9e64'
+COLOR12='#7da6ff'
+COLOR13='#bb9af7'
+COLOR14='#0db9d7'
+COLOR15='#c0caf5'

@@ -1,0 +1,24 @@
+# matugen is used for ONE thing on this machine: the "wallpaper" theme.
+# It turns the current wallpaper into a colour file with the same variables as
+# every curated theme (~/.config/mango/themes/<name>/colors.sh). It does NOT
+# write any app config: ~/.config/mango/scripts/theme-set.sh renders all
+# consumers (mango, mangobar, kitty, fuzzel, mako, swaylock, btop) from that file.
+#
+# Normally driven by `theme-set.sh wallpaper`, which runs:
+#   matugen image <wall> -m dark -t scheme-tonal-spot --source-color-index 0 -q
+# Never use --prefer: it picks a different source colour than index 0.
+[config]
+
+# Terminal ANSI hues. blend = true harmonises each one towards the wallpaper's
+# source colour, so red stays red but sits in the same family as the palette.
+[config.custom_colors]
+red     = { color = "#e67e80", blend = true }
+green   = { color = "#a7c080", blend = true }
+yellow  = { color = "#dbbc7f", blend = true }
+blue    = { color = "#7fbbb3", blend = true }
+magenta = { color = "#d699b6", blend = true }
+cyan    = { color = "#83c092", blend = true }
+
+[templates.mangotheme]
+input_path = '~/.config/matugen/templates/mango-colors.sh'
+output_path = '~/.config/mango/themes/wallpaper/colors.sh'

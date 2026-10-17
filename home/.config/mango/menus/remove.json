@@ -1,0 +1,16 @@
+{
+  "title": "remove",
+  "parent": "root",
+  "items": [
+    {
+      "icon": "󰩺",
+      "label": "Package",
+      "run": "pkg.sh remove"
+    },
+    {
+      "icon": "󰖟",
+      "label": "Web app",
+      "run": "webapp-remove.sh"
+    }
+  ]
+}

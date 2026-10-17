@@ -1,0 +1,8 @@
+[Unit]
+Description=Low battery notification (mango light stack)
+# Needs a graphical session for notify-send; harmless no-op otherwise.
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/sasuke/.config/mango/scripts/battery-warn.sh
