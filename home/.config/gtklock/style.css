@@ -9,13 +9,13 @@ window {
     font-family: "Google Sans Flex", sans-serif;
     font-size: 110px;
     font-weight: 300;
-    color: #e5e1e9;
+    color: #e4e1e9;
     text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
 }
 #date-label {
     font-family: "Google Sans Flex", sans-serif;
     font-size: 20px;
-    color: #c4c0ff;
+    color: #bec2ff;
     margin-bottom: 36px;
 }
 #input-label { opacity: 0; }
@@ -24,14 +24,14 @@ window {
     min-height: 44px;
     padding: 0 16px;
     border-radius: 22px;
-    border: 2px solid #c4c0ff;
-    background: #201f25;
-    color: #e5e1e9;
-    caret-color: #c4c0ff;
+    border: 2px solid #bec2ff;
+    background: #1f1f25;
+    color: #e4e1e9;
+    caret-color: #bec2ff;
     box-shadow: none;
     font-family: "JetBrainsMono Nerd Font", monospace;
 }
-#input-field:focus { border-color: #ebb9d0; }
+#input-field:focus { border-color: #e7b9d5; }
 #unlock-button { opacity: 0; min-width: 0; min-height: 0; padding: 0; }
 #error-label { color: #ffb4ab; }
-#warning-label { color: #ebb9d0; }
+#warning-label { color: #e7b9d5; }
